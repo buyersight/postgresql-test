@@ -4,11 +4,12 @@ TASK:
 
 The db_init.sql file contains the schema for two tables: Authors and Books. Please examine the two database table creates as well as the sample data and perform the following task:
 
-Get a list of all authors and the number of books they have written in descending order of the number of books written.
+Get a list of all authors, the price of their most expensive book, and the number of books they have written which have a price greater than $10 in descending order of the number of books written.
 
-- IF TWO MORE MORE AUTHORS HAVE WRITTEN THE SAME NUMBER OF BOOKS THEN ORDER THEM ALPHABETICALLY BY AUTHOR_NAME
-- IN AUTHOR_NAME, INCLUDE THE FIRST LETTER OF THE AUTHOR'S FIRST NAME AND THEIR LAST NAME ("M FRIED")
-- IF THE AUTHOR HAS NOT WRITTEN ANY BOOKS, DO NOT INCLUDE THE AUTHOR IN THE LIST OF RESULTS
+- The first column should be AUTHOR_NAME and should include the first letter of the author's first name and their last name (e.g. 'M FRIED')
+- If two or more authors have written the same number of books, the query should order them by the price of the most expensive book in descending order
+- If two or more authors have written the same number of books and the price of their most expensive book is the same, then order them by AUTHOR_NAME alphabetically
+- If the author has not written any books with a price greater than $10, do not display the author
 
 You may use a site like [SQL Fiddle](http://sqlfiddle.com/#!17) or [DB Fiddle](https://www.db-fiddle.com/) to test and run your solution.
 
