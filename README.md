@@ -17,14 +17,14 @@ For the given data set, the results should look like:
 
 | author_name | max   | min   | count |
 | ----------- | ----- | ----- | ----- |
-| F SNITKER   | 71.99 | 49.99 | 2     |
-| A RAGONE    | 31.99 | 31.99 | 1     |
-| O ACUNA     | 39.99 | 29.99 | 2     |
-| T GREENE    | 34.99 | 19.99 | 3     |
 | B FREEMAN   | 23.99 | 10.99 | 4     |
+| T GREENE    | 34.99 | 19.99 | 3     |
+| F SNITKER   | 71.99 | 49.99 | 2     |
+| O ACUNA     | 39.99 | 29.99 | 2     |
 | T RILEY     | 23.99 | 9.99  | 2     |
-| M SMYLY     | 21.99 | 5.99  | 1     |
 | M MINTER    | 49.99 | 4.99  | 1     |
+| A RAGONE    | 31.99 | 31.99 | 1     |
+| M SMYLY     | 21.99 | 5.99  | 1     |
 
 ---
 
