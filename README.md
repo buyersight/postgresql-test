@@ -8,7 +8,7 @@ Get a list of all authors, the price of their most expensive book, and the numbe
 
 - The first column should be AUTHOR_NAME and should include the first letter of the author's first name and their last name (e.g. 'M FRIED')
 - If two or more authors have written the same number of books, the query should order them by the price of the most expensive book in descending order
-- If two or more authors have written the same number of books and the price of their most expensive book is the same, then order them by AUTHOR_NAME alphabetically
+- If two or more authors have written the same number of books and the price of their most expensive book is the same, then order them by the author's last name alphabetically
 - If the author has not written any books with a price greater than $10, do not display the author
 
 You may use a site like [SQL Fiddle](http://sqlfiddle.com/#!17) or [DB Fiddle](https://www.db-fiddle.com/) to test and run your solution.
