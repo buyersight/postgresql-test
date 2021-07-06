@@ -2,6 +2,8 @@
 
 TASK:
 
+This test is designed to work with PosgreSQL. Please ensure that your solution will work with PostgreSQL 11.
+
 The db_init.sql file contains the schema for two tables: Authors and Books. Please examine the two database table creates as well as the sample data and perform the following task:
 
 ---
